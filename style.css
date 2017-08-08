@@ -1,0 +1,58 @@
+body {margin:0;}
+
+* {
+	font-family; Georgia, serif;
+}
+
+.top {
+	display: block;
+	margin: 20px 30px;
+}
+.title  {
+	text-decoration: none;
+	font-size: 70px;
+	color: black;
+}
+.title:hover {
+	cursor: pointer;
+	color: grey;
+}
+
+.topnav {
+	background-color: black;
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	display: block;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.topnav a:hover {
+	color: black;
+	background-color: grey;
+}
+
+.content {
+	margin: 10px 30px;
+	text-align: center;
+}
+
+.article {
+	display: block;
+	font-family: Georgia, serif;
+	padding: 15px;
+	
+}
+
+.footer {
+	display: block;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
