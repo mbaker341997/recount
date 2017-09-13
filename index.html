@@ -5,11 +5,12 @@
 	<title>Recount - The Game</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://mbakerperson.github.io/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onkeydown="spacePress(event)">
 	<div class="top">
-		<h1><a class="title" href="https://mbakerperson.github.io/">Matt Baker's Stuff</a></h1>
+		<h1><a class="title" href="https://mbakerperson.github.io/" style="font-size:70px">Matt Baker's Projects</a></h1>
 	</div>
 
 	<div class="topnav">
@@ -21,12 +22,22 @@
 	<div class="content">
 		<h2>Recount - The Game</h2>
 		<p>Click the frame below and then press space to start.</p>
-		<iframe src="recount.html" style="width:800px;height:600px"></iframe>
+		<div style="text-align:center"><iframe src="recount.html" style="width:800px;height:600px;"></iframe></div>
 		<br>
 	</div>
 
 	<div class="footer">
 		<p>Please don't steal any of this.</p>
+		<span><a href="https://github.com/mbakerperson" title="My Github profile"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></span>
+		<span><a href="mailto:mbaker341997@gmail.com?Subject=From%20your%20website" target="_top" title="email me"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></span>
+		<span><a href="https://www.facebook.com/mattbaker97" title="Add me on Facebook"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></span>
 	</div>
+	<script>
+	function spacePress(event){
+		if(event.keyCode == 32){
+			window.alert("If you're trying to play the game, be sure to click the frame first. This is an annoying bug, which I'll fix eventually.");
+		}
+	}
+	</script>
 </body>
 </html>
